@@ -1,0 +1,60 @@
+<html> 
+<head> 
+    <title> MY PHOTO GALLERY </title>
+    <link rel = "stylesheet" href = "style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"> </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"> </script>
+    </head>
+    <body>
+    <ul class = "menu"> 
+        <li class = "links"> <a href ="#home"> Home</a></li>
+        <li class = "links"> <a href ="#gridview"> Grid View</a></li>
+        <li class = "links"> <a href ="#slideview"> Slide View</a></li>
+        </ul>
+        <section id = "home"> 
+            <br>
+          <p> Welcome to my Photo Gallery</p>
+            <img id = "gif" src = "gif1.gif">
+        </section>
+        <section id = "gridview"> 
+            <h1> Grid View </h1>
+        <img src = "pic1.jpg">
+            <img src = "pic2.jpg">
+            <img src = "pic3.jpg">
+            <br>
+            <img src = "pic4.jpg">
+            <img src = "pic5.jpg">
+            <img src = "pic6.jpg">
+        </section>
+        <section id = "slideview">
+            <h2> Slide View </h2>
+    <div id = "myCarousel" class = "carousel slide"> 
+        <div class = "carousel-inner"> 
+            <div class = "item active"> 
+            <center>
+                 <img src = "pic1.jpg" class = "img-responsive"> 
+                <div class = "carousel-content">
+                    <h3>The Glamorous Aurora </h3>
+                </div>
+                </center>
+            </div>
+            <div class = "item">
+            <center> 
+           <img src = "pic2.jpg" class = "img-responsive"> 
+                <div class ="carousel-content">
+                    <h4> The Colorful Sky</h4>
+                </div>
+                </center>
+            </div>
+            </div>
+            <a class = "left carousel-control" href = "#myCarousel" data-slide = "prev">
+            <span class = "glyphicon glyphicon-chevron-left"> </span>
+            </a>
+            <a class = "right carousel-control" href = "#myCarousel" data-slide = "next">
+            <span class = "glyphicon glyphicon-chevron-right"> </span>
+            </a>
+        </div>
+</section>
+       </body>
+</html>

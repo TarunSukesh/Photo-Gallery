@@ -1,0 +1,56 @@
+body {
+    background-color : aliceblue;
+    text-align : center;
+}
+.links:hover{
+    background-color : Orange;
+}
+.links {
+    font-size : 30px;
+    display : inline;
+    padding-left : 33px;
+    padding-right : 25px;
+} 
+p {
+  font-size : 40px; 
+    background-color : cornflowerblue; 
+    color : aquamarine;
+    font-family : monospace;
+    font-weight : bold;
+}
+h1 {
+    font-size : 30px;
+    font-family :cursive;
+    font-weight : bold;
+    background-color : darkturquoise;
+    color : aquamarine;
+}
+h2 {
+    font-size : 30px;
+    font-family : cursive;
+    font-weight : bold; 
+    background-color : darkturquoise;
+    color : aquamarine;
+}
+img {
+    width : 350px;
+    height : 250px;
+    border-style: solid; 
+}
+.menu {
+  position : fixed; 
+    background-color : aqua; 
+    font-family :monospace; 
+    width : 100%;
+    margin-top : 0px;         
+}
+#home {
+    padding-top : 60px;
+}
+#gif {
+    width :80%;
+    height : 80%;   
+}
+html {
+    scroll-behavior: smooth; 
+}
